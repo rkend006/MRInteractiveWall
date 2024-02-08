@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\kendr\\Documents\\UCF\\MRInteractiveWall\\MRInteractiveWall\\API\\MRInteractiveMural\\MRInteractiveMural.Server\\..\\mrinteractivemural.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
