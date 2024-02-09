@@ -1,5 +1,6 @@
 import { Routes, Route, NavLink } from 'react-router-dom';
 import AR from './AR';
+import AdminPage from './AdminPage';
 
 /*const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
             <Route index element={<Home />} />
             <Route path="home" element={<Home />} />
             <Route path="ar" element={<AR />} />
+            <Route path="admin" element={<AdminPage />} />
             <Route path="*" element={<p>There is nothing here: 404!</p>} />
         </Routes>
     );
@@ -29,6 +31,11 @@ const Home = () => {
             <nav>
                 <NavLink to="/ar">
                     AR
+                </NavLink>
+            </nav>
+            <nav>
+                <NavLink to="/admin">
+                    Admin Page
                 </NavLink>
             </nav>
         </>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lJ5IvWYyG+t5oS0/urqhOlHneicT94OilKMaEVd5Ujw1NZai8Mh0H+HvUIJCCpa+dsTVBGPGFKcYbbgFRsjZfQ==",
+  "dgSpecHash": "v0OJOcGW7IO+xf+4dwN+2uGQFTQtU3wPizjiOo+BumqjA2/i0rtZGLfy/yWnySU1MJLogghMmw82If2hhlGjow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kendr\\Documents\\UCF\\MRInteractiveWall\\MRInteractiveWall\\API\\MRInteractiveMural\\MRInteractiveMural.Server\\MRInteractiveMural.Server.csproj",
+  "projectFilePath": "C:\\Users\\kendr\\Documents\\UCF\\InteractiveWall\\MRInteractiveMural\\MRInteractiveMural.Server\\MRInteractiveMural.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kendr\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.1\\microsoft.aspnetcore.spaproxy.8.0.1.nupkg.sha512",
     "C:\\Users\\kendr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

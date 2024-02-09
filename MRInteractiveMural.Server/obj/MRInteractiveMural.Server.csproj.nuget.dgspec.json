@@ -1,20 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kendr\\Documents\\UCF\\MRInteractiveWall\\MRInteractiveWall\\API\\MRInteractiveMural\\MRInteractiveMural.Server\\MRInteractiveMural.Server.csproj": {}
+    "C:\\Users\\kendr\\Documents\\UCF\\InteractiveWall\\MRInteractiveMural\\MRInteractiveMural.Server\\MRInteractiveMural.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kendr\\Documents\\UCF\\MRInteractiveWall\\MRInteractiveWall\\API\\MRInteractiveMural\\MRInteractiveMural.Server\\MRInteractiveMural.Server.csproj": {
+    "C:\\Users\\kendr\\Documents\\UCF\\InteractiveWall\\MRInteractiveMural\\MRInteractiveMural.Server\\MRInteractiveMural.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kendr\\Documents\\UCF\\MRInteractiveWall\\MRInteractiveWall\\API\\MRInteractiveMural\\MRInteractiveMural.Server\\MRInteractiveMural.Server.csproj",
+        "projectUniqueName": "C:\\Users\\kendr\\Documents\\UCF\\InteractiveWall\\MRInteractiveMural\\MRInteractiveMural.Server\\MRInteractiveMural.Server.csproj",
         "projectName": "MRInteractiveMural.Server",
-        "projectPath": "C:\\Users\\kendr\\Documents\\UCF\\MRInteractiveWall\\MRInteractiveWall\\API\\MRInteractiveMural\\MRInteractiveMural.Server\\MRInteractiveMural.Server.csproj",
+        "projectPath": "C:\\Users\\kendr\\Documents\\UCF\\InteractiveWall\\MRInteractiveMural\\MRInteractiveMural.Server\\MRInteractiveMural.Server.csproj",
         "packagesPath": "C:\\Users\\kendr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kendr\\Documents\\UCF\\MRInteractiveWall\\MRInteractiveWall\\API\\MRInteractiveMural\\MRInteractiveMural.Server\\obj\\",
+        "outputPath": "C:\\Users\\kendr\\Documents\\UCF\\InteractiveWall\\MRInteractiveMural\\MRInteractiveMural.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kendr\\Documents\\UCF\\MRInteractiveWall\\MRInteractiveWall\\NuGet.Config",
           "C:\\Users\\kendr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -22,6 +21,7 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

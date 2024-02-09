@@ -14,7 +14,9 @@ builder.Services.AddCors(options =>
                       policy =>
                       {
                           policy.WithOrigins("https://raw.githack.com",
-                                              "https://localhost:5173");
+                                              "https://localhost:5173",
+                                              "https://localhost:5174",
+                                              "https://localhost:7121/","*");
                       });
 });
 

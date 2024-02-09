@@ -10,8 +10,10 @@ namespace YourNamespace.Controllers
     public class FileController : ControllerBase
     {
         [HttpPost("move")]
-        public async Task<IActionResult> MoveFile(string sourcePath, string destinationPath)
+        public async Task<IActionResult> MoveFile()
         {
+            string sourcePath = "C:\\Users\\kendr\\OneDrive\\Desktop\\Sauron.jpg";
+            String destinationPath = "C:\\Users\\kendr\\OneDrive\\Desktop\\ServerFolder\\Sauron.jpg"; 
             try
             {
 
