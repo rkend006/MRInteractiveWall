@@ -1,5 +1,10 @@
-var builder = WebApplication.CreateBuilder(args);
+using MySqlConnector;
+using MRInteractiveMural.Server.Models;
+using System;
 
+var builder = WebApplication.CreateBuilder(args);
+ApplicationSettings.RepositoryConnectionString = builder.Configuration["ConnectionStrings:Default"];
+builder.Services.AddMySqlDataSource(builder.Configuration["ConnectionStrings:Default"]);
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -7,20 +12,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins"; 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: MyAllowSpecificOrigins,
-                      policy =>
-                      {
-                          policy.WithOrigins("https://raw.githack.com",
-                                              "https://localhost:5173",
-                                              "https://localhost:5174",
-                                              "https://localhost:7121/","*");
-                      });
+        policy =>
+        {
+            policy.WithOrigins("https://raw.githack.com",
+                "https://localhost:5173",
+                "https://localhost:5174",
+                "https://localhost:7121/","*")
+            .WithHeaders("*")
+            .WithMethods("*");
+        });
 });
-
 var app = builder.Build();
+
 
 app.UseDefaultFiles();
 app.UseStaticFiles();

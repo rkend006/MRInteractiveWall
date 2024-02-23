@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MRInteractiveMural.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d238115e98da9c734db6efc0b48102b98bf63547")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4012fee710a3c8aa9070a9a16e6bb2cc361c373c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MRInteractiveMural.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MRInteractiveMural.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

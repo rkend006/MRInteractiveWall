@@ -14,6 +14,17 @@ const AdminPage = () => {
         color: 'Black',
     };
 
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    
+    const handleNameChange = (e) => {
+        setName(e.target.value);
+    };
+    
+    const handleEmailChange = (e) => {
+        setEmail(e.target.value);
+    };
+
     const [file, setFile] = useState(null);
 
     const handleFileChange = (e) => {
@@ -35,6 +46,8 @@ const AdminPage = () => {
             });
 
             console.log('File uploaded successfully:', response.data);
+            console.log('Name:', name);
+            console.log('Email:', email);
         } catch (error) {
             console.error('Error uploading file:', error);
         }
@@ -43,6 +56,24 @@ const AdminPage = () => {
     return (
         <div style={center}>
             <h1>Admin Page</h1>
+            <div>
+                <label>Name:</label>
+                <input
+                type="text"
+                value={name}
+                onChange={handleNameChange}
+                required
+                />
+            </div>
+            <div>
+                <label>Email:</label>
+                <input
+                type="email"
+                value={email}
+                onChange={handleEmailChange}
+                required
+                />
+            </div>
             <h2>Upload the files to the server here.</h2>
             <br></br>
             <form onSubmit={handleSubmit}>

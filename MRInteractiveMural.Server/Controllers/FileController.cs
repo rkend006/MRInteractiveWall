@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MySqlConnector;
 using System;
 using System.IO;
 using System.Threading.Tasks;
@@ -13,7 +14,10 @@ namespace YourNamespace.Controllers
         public async Task<IActionResult> MoveFile()
         {
             string sourcePath = "C:\\Users\\kendr\\OneDrive\\Desktop\\Sauron.jpg";
-            String destinationPath = "C:\\Users\\kendr\\OneDrive\\Desktop\\ServerFolder\\Sauron.jpg"; 
+            String destinationPath = "C:\\Users\\kendr\\OneDrive\\Desktop\\ServerFolder\\Sauron.jpg";
+            using var connection = new MySqlConnection("Server=localhost:3306;User ID=root;Password=Alessandra99>;Database=mr-mural");
+
+
             try
             {
 
